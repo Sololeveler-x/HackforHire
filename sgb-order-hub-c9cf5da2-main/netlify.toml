@@ -1,0 +1,9 @@
+[build]
+  base = "sgb-order-hub-c9cf5da2-main"
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
