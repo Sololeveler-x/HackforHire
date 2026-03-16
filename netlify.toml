@@ -1,0 +1,9 @@
+[build]
+  base = "sgb-order-hub-c9cf5da2-main"
+  command = "npm install && npm run build"
+  publish = "sgb-order-hub-c9cf5da2-main/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
