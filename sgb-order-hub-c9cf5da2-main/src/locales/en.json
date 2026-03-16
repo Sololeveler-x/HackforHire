@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "login": "Login",
+    "track": "Track Order"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "loading": "Loading...",
+    "noData": "No data found",
+    "submit": "Submit",
+    "close": "Close"
+  },
+  "dashboard": "Dashboard",
+  "orders": "Orders",
+  "new_lead": "New Lead",
+  "call_status": "Call Status",
+  "not_called": "Not Called",
+  "called": "Called",
+  "submit_order": "Submit Order",
+  "total_revenue": "Total Revenue",
+  "pending": "Pending",
+  "delivered": "Delivered",
+  "products": "Products",
+  "warehouse": "Warehouse",
+  "analytics": "Analytics",
+  "leads": "Leads",
+  "team": "Team",
+  "logout": "Logout",
+  "stats": {
+    "totalOrders": "Total Orders",
+    "revenue": "Revenue",
+    "pending": "Pending",
+    "packed": "Packed",
+    "shipped": "Shipped"
+  },
+  "orderForm": {
+    "createOrder": "Create New Order",
+    "customerName": "Customer Name",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "pincode": "Pincode",
+    "paymentStatus": "Payment Status",
+    "orderStatus": "Order Status"
+  }
+}

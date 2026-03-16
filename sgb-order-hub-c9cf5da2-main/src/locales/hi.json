@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "होम",
+    "login": "लॉगिन",
+    "track": "ऑर्डर ट्रैक"
+  },
+  "common": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "add": "जोड़ें",
+    "search": "खोजें",
+    "loading": "लोड हो रहा है...",
+    "noData": "कोई डेटा नहीं",
+    "submit": "जमा करें",
+    "close": "बंद करें"
+  },
+  "dashboard": {
+    "totalOrders": "कुल ऑर्डर",
+    "revenue": "राजस्व",
+    "pending": "लंबित",
+    "packed": "पैक किया",
+    "shipped": "भेजा गया"
+  },
+  "orders": {
+    "createOrder": "नया ऑर्डर बनाएं",
+    "customerName": "ग्राहक का नाम",
+    "phone": "फोन",
+    "address": "पता",
+    "city": "शहर",
+    "state": "राज्य",
+    "pincode": "पिनकोड",
+    "paymentStatus": "भुगतान स्थिति",
+    "orderStatus": "ऑर्डर स्थिति"
+  }
+}

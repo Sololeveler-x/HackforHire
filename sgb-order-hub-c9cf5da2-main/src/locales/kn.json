@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "ಮುಖಪುಟ",
+    "login": "ಲಾಗಿನ್",
+    "track": "ಆರ್ಡರ್ ಟ್ರ್ಯಾಕ್"
+  },
+  "common": {
+    "save": "ಉಳಿಸಿ",
+    "cancel": "ರದ್ದು",
+    "delete": "ಅಳಿಸಿ",
+    "edit": "ಸಂಪಾದಿಸಿ",
+    "add": "ಸೇರಿಸಿ",
+    "search": "ಹುಡುಕಿ",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "noData": "ಡೇಟಾ ಇಲ್ಲ",
+    "submit": "ಸಲ್ಲಿಸಿ",
+    "close": "ಮುಚ್ಚಿ"
+  },
+  "dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+  "orders": "ಆದೇಶಗಳು",
+  "new_lead": "ಹೊಸ ಲೀಡ್",
+  "call_status": "ಕರೆ ಸ್ಥಿತಿ",
+  "not_called": "ಕರೆ ಮಾಡಿಲ್ಲ",
+  "called": "ಕರೆ ಮಾಡಲಾಗಿದೆ",
+  "submit_order": "ಆದೇಶ ಸಲ್ಲಿಸಿ",
+  "total_revenue": "ಒಟ್ಟು ಆದಾಯ",
+  "pending": "ಬಾಕಿ ಇದೆ",
+  "delivered": "ತಲುಪಿಸಲಾಗಿದೆ",
+  "products": "ಉತ್ಪನ್ನಗಳು",
+  "warehouse": "ಗೋದಾಮು",
+  "analytics": "ವಿಶ್ಲೇಷಣೆ",
+  "leads": "ಲೀಡ್‌ಗಳು",
+  "team": "ತಂಡ",
+  "logout": "ಲಾಗ್ ಔಟ್",
+  "stats": {
+    "totalOrders": "ಒಟ್ಟು ಆರ್ಡರ್‌ಗಳು",
+    "revenue": "ಆದಾಯ",
+    "pending": "ಬಾಕಿ",
+    "packed": "ಪ್ಯಾಕ್ ಆಗಿದೆ",
+    "shipped": "ಕಳುಹಿಸಲಾಗಿದೆ"
+  },
+  "orderForm": {
+    "createOrder": "ಹೊಸ ಆರ್ಡರ್ ರಚಿಸಿ",
+    "customerName": "ಗ್ರಾಹಕರ ಹೆಸರು",
+    "phone": "ಫೋನ್",
+    "address": "ವಿಳಾಸ",
+    "city": "ನಗರ",
+    "state": "ರಾಜ್ಯ",
+    "pincode": "ಪಿನ್‌ಕೋಡ್",
+    "paymentStatus": "ಪಾವತಿ ಸ್ಥಿತಿ",
+    "orderStatus": "ಆರ್ಡರ್ ಸ್ಥಿತಿ"
+  }
+}
