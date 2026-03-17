@@ -161,7 +161,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   const portals = [
-    { icon: '🛡', title: 'Admin Portal', description: 'Full system control, analytics, team management', color: '#7c3aed', colorBg: 'rgba(124,58,237,0.15)', path: '/login?role=admin' },
+    { icon: '🛡️', title: 'Admin Portal', description: 'Full system control, analytics, team management', color: '#7c3aed', colorBg: 'rgba(124,58,237,0.15)', path: '/login?role=admin' },
     { icon: '📋', title: 'Billing Portal', description: 'Create orders, manage invoices and payments', color: '#2563eb', colorBg: 'rgba(37,99,235,0.15)', path: '/login?role=billing' },
     { icon: '📦', title: 'Packing Portal', description: 'Warehouse packing, AI fulfillment planner', color: '#d97706', colorBg: 'rgba(217,119,6,0.15)', path: '/login?role=packing' },
     { icon: '🚚', title: 'Shipping Portal', description: 'Dispatch orders, track deliveries, collect payments', color: '#0d9488', colorBg: 'rgba(13,148,136,0.15)', path: '/login?role=shipping' },
@@ -176,7 +176,7 @@ export default function Home() {
       {/* Nav */}
       <nav className="relative z-20 flex items-center justify-between px-6 py-4 border-b border-white/[0.06]">
         <div className="flex items-center gap-3">
-          <div className="w-7 h-7 rounded-lg bg-green-600 flex items-center justify-center text-white text-xs font-bold">S</div>
+          <img src="/sgb-logo.png" alt="SGB Logo" className="h-8 w-auto object-contain" />
           <span className="text-sm font-semibold text-white">SGB Agro Industries</span>
           <span className="text-[10px] text-slate-500 hidden sm:block">Internal System</span>
         </div>
@@ -197,6 +197,15 @@ export default function Home() {
           className="inline-flex items-center gap-2 bg-yellow-500/10 border border-yellow-500/20 text-yellow-400 text-[11px] font-medium px-4 py-1.5 rounded-full mb-6"
         >
           🏆 Elevate 2024 Winner — Karnataka State
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.05, duration: 0.5 }}
+          className="flex justify-center mb-4"
+        >
+          <img src="/sgb-logo.png" alt="SGB Agro Logo" className="h-24 w-auto object-contain drop-shadow-lg" />
         </motion.div>
 
         <motion.h1
