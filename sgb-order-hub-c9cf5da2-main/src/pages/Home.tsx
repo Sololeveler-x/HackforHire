@@ -200,23 +200,19 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.05, duration: 0.5 }}
-          className="flex justify-center mb-4"
-        >
-          <img src="/sgb-logo.png" alt="SGB Agro Logo" className="h-24 w-auto object-contain drop-shadow-lg" />
-        </motion.div>
-
-        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1, duration: 0.5 }}
-          className="text-4xl sm:text-5xl font-bold text-white mb-4 leading-tight"
+          className="flex flex-col items-center mb-4"
         >
-          SGB Agro Industries
-          <span className="block text-green-400 mt-1">Order Hub</span>
-        </motion.h1>
+          <div className="flex items-center gap-4 mb-2">
+            <img src="/sgb-logo.png" alt="SGB Agro Logo" className="h-16 w-auto object-contain drop-shadow-lg" />
+            <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight text-left">
+              SGB Agro Industries
+            </h1>
+          </div>
+          <span className="text-4xl sm:text-5xl font-bold text-green-400">Order Hub</span>
+        </motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 15 }}
