@@ -465,9 +465,9 @@ const AdminDashboard = () => {
                 <div className="bg-gray-50 rounded-lg p-4">
                   <p className="font-medium mb-2 text-sm">Demo — Scan to join WhatsApp sandbox</p>
                   <p className="text-sm text-gray-600 mb-2">
-                    Send <code className="bg-gray-200 px-1 rounded text-xs">join wing-mad</code> to <strong>+1 415 523 8886</strong>
+                    Send <code className="bg-gray-200 px-1 rounded text-xs">join nearest-tall</code> to <strong>+1 415 523 8886</strong>
                   </p>
-                  <QRCodeSVG value="https://wa.me/14155238886?text=join%20wing-mad" size={100} />
+                  <QRCodeSVG value="https://wa.me/14155238886?text=join%20nearest-tall" size={100} />
                 </div>
                 <div>
                   <p className="font-medium text-sm mb-2">Recent WhatsApp Inquiries</p>

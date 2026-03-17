@@ -133,7 +133,7 @@ function WhatsAppSandboxSection() {
             <p className="text-[11px] text-slate-500 mt-0.5">
               Send{' '}
               <code className="bg-white/10 text-green-400 px-1.5 py-0.5 rounded text-[10px] font-mono">
-                join wing-mad
+                join nearest-tall
               </code>{' '}
               to{' '}
               <span className="text-slate-300 font-medium">+1 415 523 8886</span>
@@ -142,7 +142,7 @@ function WhatsAppSandboxSection() {
         </div>
         <div className="flex justify-center">
           <img
-            src={`https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=${encodeURIComponent('https://wa.me/14155238886?text=join%20wing-mad')}&bgcolor=060d1a&color=22c55e&qzone=1`}
+            src={`https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=${encodeURIComponent('https://wa.me/14155238886?text=join%20nearest-tall')}&bgcolor=060d1a&color=22c55e&qzone=1`}
             alt="Scan to join WhatsApp sandbox"
             className="rounded-xl border border-white/10"
             width={140}
